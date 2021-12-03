@@ -1,6 +1,4 @@
 
-
-
 if __name__ == "__main__":
     filename = "input.txt"
     with open(filename, 'r') as reader:
