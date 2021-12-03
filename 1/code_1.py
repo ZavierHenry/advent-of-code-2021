@@ -1,4 +1,3 @@
-import requests
 
 if __name__ == "__main__":
     filename = "advent_day_1_input.txt"

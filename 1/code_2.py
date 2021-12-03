@@ -1,9 +1,4 @@
-import requests
 from queue import Queue
-
-
-
-
 
 if __name__ == "__main__":
     count = 0
