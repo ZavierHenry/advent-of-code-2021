@@ -20,8 +20,6 @@ if __name__ == "__main__":
         elements = [ val for row in rows for val in row ]
         boards = [ elements[i:i+25] for i in range(0, len(elements), 25)]
 
-    print(boards)
-
     for number in numbers:
         boards = [ update_board(board, number) for board in boards ]
         winners = [ board for board in boards if check_board(board) ]
